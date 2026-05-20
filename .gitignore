@@ -1,8 +1,8 @@
 # Dependencies
 node_modules/
 
-# Build output
-dist/
+# Build output (track compiled CSS for GitHub Pages)
+# dist/
 
 # macOS
 .DS_Store
