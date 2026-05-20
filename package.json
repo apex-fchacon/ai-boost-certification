@@ -1,0 +1,13 @@
+{
+  "name": "ai-boost-certification",
+  "version": "2.0.0",
+  "description": "AI Boost Automation Certification Assessment — Everforth Apex",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
